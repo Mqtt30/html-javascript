@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Esercitazione</title><!--Nel tag tilte ho inserito un titiolo valido-->
+  <!--Nel tag style attraverso una classe ho modificato il background, il font, la dimensione e il colore--><style>
+  .body {
+  background-color: lightgrey;
+  font-family: "Arial Black", Helvetica, sans-serif;
+  font-size:14px;
+  color: black;
+  }
+  </style>
+</head>
+<body>
+ 
+ <h1>Esercizio pre-verifica</h1><!--Nell'heading ho inserito un sottotitolo per la pagine-->
+ 
+ <p class="body">Componenti di un pc:</p> <!--ho richiamato la classe body per modificare il contenuto, ho inserito un paragrafo-->
+ <ul class="body"><!--ho richiamato la classe body per modificare il contenuto, e ho inserito una lista non puntata-->
+ <li>Scheda Madre --> <a href="https://amzn.eu/d/cjQfpw6" target="_blank">shop</a></li><!--ho inserito un elemento della lista e successivamento colegato ad esso un link-->
+ <li>Processore --> <a href="https://amzn.eu/d/1hfXWgN" target="_blank">shop</a></li>
+ <li>RAM --> <a href="https://amzn.eu/d/5kvLZih" target="_blank">shop</a></li>
+ <li>Scheda video --> <a href="https://amzn.eu/d/5z89uGc" target="_blank">shop</a></li>
+ </ul>
+  <img src="componentipc.jpg" alt="componenti del pc" style="max-width:100%;height:auto;"><br> <!--ho inserito un'immagine e la ho ridimensionata -->
+ 
+ <p class="body">Dispositivi input/output di un pc</p>
+ <ol class="body">
+ <li>Tastiera --> <a href="https://amzn.eu/d/8XyZzyB" target="_blank">shop</a></li> 
+ <li>Mouse --> <a href="https://amzn.eu/d/8vv3VFu" target="_blank">shop</a></li> 
+ <li>Monitor --> <a href="https://amzn.eu/d/dzntm35" target="_blank">shop</a></li> 
+ </ol>
+ <img src="periferiche.jpg" alt="periferiche del pc" style="max-width:100%;height:auto;">    
+ 
+ <hr>
+ 
+ <p class="body">Per acquistare questi prodotti occorre accedere</p>
+ <form class="body"> 
+  <label for="fname">Nome:</label>
+  <input type="text" id="fname" name="fname"><br> <!--<input type="text">definisce un campo di input di testo a riga singola-->
+  <label for="email">Mail:</label>
+  <input type="email" id="email" name="email"><br> <!--<input type="email">viene utilizzato per i campi di input che dovrebbero contenere un indirizzo e-mail-->
+  <label for="pwd">Password:</label>
+  <input type="password" id="pwd" name="pwd"><br> <!--<input type="password">definisce un campo password-->
+  <label for="fname">Maggiori segnalazioni, scrivere qui:</label>
+  <input type="text" id="fname" name="fname"> <br>
+  <input type="submit" value="Invia"> <!--<input type="submit">definisce un pulsante per inviare i dati del modulo a un gestore di moduli-->
+
+ </form>
+ 
+ <hr>
+ 
+</body>
+</html>
