@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Inter</title>
+<style>
+
+.centrato {text-align: center;}
+table, th, td {
+border:1px solid black;
+}
+</style>
+</head>
+<body>
+
+  <h1>Inter (Internazionale Milano)</h1>
+  <h2>L'Inter e' una societa' calcistica italiana con sede nella citta' di Milano.</h2>
+  <p>La squadra dell'Inter, ufficialmente nota come FC Internazionale Milano, e' uno dei club di calcio piu' prestigiosi d'Italia e del mondo. Fondato nel 1908, l'Inter ha una lunga e ricca storia nel calcio. Di seguito, fornisco una descrizione generale della squadra al momento del mio ultimo aggiornamento nel gennaio 2022. Tieni presente che potrebbero essere avvenuti cambiamenti nella squadra, nello staff o nella gestione da allora.</p>
+  <p>L'allenatore e': Simone Inzaghi</p>
+  <img src="intersquadra.jpg" alt="squadra">
+  <ul>
+  	<li>Sommer Yannik, portiere, 1</li>
+    <li>Bastoni Alessandro, difensore, 95</li>
+    <li>De Vrij Stefan, difensore, 6</li>
+    <li>Darmian Matteo, difensore, 36</li>
+    <li>Dimarco Federico, ala, 32</li>
+    <li>Mkhitaryan Henrikh, centrocampista, 22</li>
+    <li>Calhanoglu Hakan, centrocampista, 20</li>
+    <li> <a href="NicoloBarella.html" target="_blank">Barella Nicolo', centrocampista, 23</a></li>
+    <li>Dumfries Denzell, ala, 2</li>
+    <li> <a href="MarcusThuram.html" target="_blank">Thuram Marcus, attacante, 9</a></li>
+    <li> <a href="LautaroMartinez.html" target="_blank">Martinez Lautaro, attaccante, 10</a></li>
+  </ul>
+    <hr>
+ <table class="centrato">
+  <tr style="background-color:blue" style="font-size:12px">
+    <th>CALCIATORE</th>
+    <th>Lautaro Martinez</th>
+    <th>Hakan Calhanoglu</th>
+    <th>Marcus Thuram</th>
+    <th>Denzell Dumfries</th>
+    <th>Henrikh Mkhitaryan</th>
+  </tr>
+  <tr>
+    <td>GOL</td>
+    <td>13</td>
+    <td>5</td>
+    <td>4</td>
+    <td>2</td>
+    <td>2</td>
+  </tr>
+</table> 
+   <hr>
+   <p><a href="Partite.html" target="_blank">Cliccare qui per vedere i risultati della stagione corrente</a></p>
+   
+</body>
+</html>
