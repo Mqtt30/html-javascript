@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Verifica Bootstrap</title>
+  </head>
+  <body>
+    
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">CALCIO</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Bootstrap</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">AREA MEMBRI</button>
+        </form>
+      </div>
+    </nav>
+
+      <!--Testo-->
+      <div class="container" style="text-align: center;">
+        <h1>CALCIO</h1>
+        <p class="lead">L'Italia ha una grande storia calcistica. Il calcio e' uno sport di squadra giocato all'aperto con un pallone su un campo di gioco rettangolare, con due porte.</p>
+        <a class="btn btn-primary" href="https://it.wikipedia.org/wiki/Calcio_(sport)" target="_blank" role="button">Clicca qui</a>
+        <hr>
+      </div>
+
+      <br>
+
+      <!--Cards-->
+      <div class="container">
+        <div class="card-group">
+          <div class="card col-lg-4 col-sm-5">
+            <img class="card-img-top" src="https://cremonasport.it/app/uploads/2023/05/inter-ev.jpg" alt="Logo inter">
+            <div class="card-body">
+              <h5 class="card-title">INTER</h5>
+              <p class="card-text">Il Football Club Internazionale Milano, meglio conosciuto come Internazionale o piu' semplicemente come Inter, e' una societa' calcistica italiana con sede nella citta' di Milano.</p>
+              <p class="card-text"><small class="text-muted">Last updated now</small></p>
+              <a href="https://it.wikipedia.org/wiki/Football_Club_Internazionale_Milano" class="btn btn-primary">Clicca qui</a>
+            </div>
+          </div>
+          <div class="card col-lg-4 col-sm-5">
+            <img class="card-img-top" src="https://www.calciostyle.it/wp-content/uploads/2023/08/Torino-e1692717688717.jpeg" alt="Logo torino">
+            <div class="card-body">
+              <h5 class="card-title">TORINO</h5>
+              <p class="card-text">Il Torino Football Club, meglio conosciuto come Torino, e' una societa' calcistica italiana con sede nella citta' di Torino. Milita in Serie A, la massima divisione del campionato italiano.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <a href="https://it.wikipedia.org/wiki/Torino_Football_Club" class="btn btn-primary">Clicca qui</a>
+            </div>
+          </div>
+          <div class="card col-lg-4 col-sm-5">
+            <img class="card-img-top" src="https://www.ilpost.it/wp-content/uploads/2018/04/empoli-calcio-serie-a.jpg" alt="Logo empoli">
+            <div class="card-body">
+              <h5 class="card-title">EMPOLI</h5>
+              <p class="card-text">L'Empoli Football Club, meglio noto come Empoli, e' una societa' calcistica italiana con sede nella citta' di Empoli. Milita in Serie A, la massima divisione del campionato italiano.</p>
+              <p class="card-text"><small class="text-muted">Last updated 10 mins ago</small></p>
+              <a href="https://it.wikipedia.org/wiki/Empoli_Football_Club" class="btn btn-primary">Clicca qui</a>
+          </div>
+        </div>
+      </div>
+      <br>
+      <hr>
+
+      <!--grid system-->
+      <div class="container" style="text-align: center;">
+          <div class="row justify-content-around">
+            <div class="col-5">
+              E' giocato da due squadre composte da 11 giocatori (sono possibili sostituzioni per infortuni o ragioni tattiche). 
+              Dieci di loro possono toccare il pallone solo con i piedi, il corpo e la testa; uno solo, posto a difesa della porta 
+              (e percio' detto "portiere"), puo' toccare il pallone anche con mani e braccia, ma solamente se il pallone si trova nella 
+              propria area di rigore. L'obiettivo del gioco e' quello di segnare piu' punti (detti gol o reti) della squadra avversaria,
+              facendo passare il pallone oltre la linea della porta avversaria. La durata di una partita e' di 90 minuti, divisi in
+              due tempi da 45 ciascuno piu' un eventuale recupero (a discrezione del Direttore di Gara).
+              </div>
+              <div class="col-5">
+              Le partite di calcio sono giocate a livello amatoriale e professionistico. Nel calcio professionistico il regolare 
+              svolgimento di un incontro e' fatto rispettare da un ufficiale di gara (l'arbitro) e dai suoi assistenti 
+              (guardalinee, quarto uomo e, in alcune competizioni, VAR). E' diventato lo sport piu' popolare al mondo 
+              (sia per il numero di persone che lo praticano, sia per il numero di spettatori e appassionati) poiche' e' basato su 
+              norme semplici, si gioca con un pallone senza altre attrezzature specifiche e puu' essere adattato ai luoghi e alle 
+              situazioni piu' diversi.
+              </div>
+          </div>
+      </div>
+      <br>
+      <br>
+      <br>
+
+      <!--Cards lits group-->
+      <div class="container">
+        <div class="card-group">
+          <div class="card" style="width: 18rem;">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Posizione</li>
+              <li class="list-group-item">1</li>
+              <li class="list-group-item">2</li>
+            </ul>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Squadra</li>
+              <li class="list-group-item">Inter</li>
+              <li class="list-group-item">Milan</li>
+            </ul>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Punti</li>
+              <li class="list-group-item">83</li>
+              <li class="list-group-item">69</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+
+      <!--Header-->
+      <div class="container">
+        <div class="row">
+          
+              <div class="card col-5 col-sm-4 col-md-3">
+                <div class="card-header text-center fs-3">(header)
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Inter</h5>
+                          <p class="card-text">Squadra di Milano.</p>
+                          <a href="https://it.wikipedia.org/wiki/Football_Club_Internazionale_Milano" target="_blank" class="btn btn-primary">Clicca qui</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="card col-5 col-sm-4 col-md-3">
+                <div class="card-header text-center fs-3">(header)
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Milan</h5>
+                          <p class="card-text">Squadra di Milano.</p>
+                          <a href="https://it.wikipedia.org/wiki/Associazione_Calcio_Milan" target="_blank" class="btn btn-primary">Clicca qui</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="card col-5 col-sm-4 col-md-3">
+                <div class="card-header text-center fs-3">(header)
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Juventus</h5>
+                          <p class="card-text">Squadra di Torino.</p>
+                          <a href="https://it.wikipedia.org/wiki/Juventus_Football_Club" target="_blank" class="btn btn-primary">Clicca qui</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="card col-5 col-sm-4 col-md-3">
+                <div class="card-header text-center fs-3">(header)
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Bologna</h5>
+                          <p class="card-text">Squadra di Bologna.</p>
+                          <a href="https://it.wikipedia.org/wiki/Bologna_Football_Club_1909" target="_blank" class="btn btn-primary">Clicca qui</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="card col-5 col-sm-4 col-md-3">
+                <div class="card-header text-center fs-3">(header)
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Roma</h5>
+                          <p class="card-text">Squadra di Roma.</p>
+                          <a href="https://it.wikipedia.org/wiki/Associazione_Sportiva_Roma" target="_blank" class="btn btn-primary">Clicca qui</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="card col-5 col-sm-4 col-md-3">
+                <div class="card-header text-center fs-3">(header)
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Atalanta</h5>
+                          <p class="card-text">Squadra di Bergamo.</p>
+                          <a href="https://it.wikipedia.org/wiki/Atalanta_Bergamasca_Calcio" target="_blank" class="btn btn-primary">Clicca qui</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="card col-5 col-sm-4 col-md-3">
+                <div class="card-header text-center fs-3">(header)
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Fiorentina</h5>
+                          <p class="card-text">Squadra di Firenze.</p>
+                          <a href="https://it.wikipedia.org/wiki/ACF_Fiorentina" target="_blank" class="btn btn-primary">Clicca qui</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="card col-5 col-sm-4 col-md-3">
+                <div class="card-header text-center fs-3">(header)
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Napoli</h5>
+                          <p class="card-text">Squadra di Napoli</p>
+                          <a href="https://it.wikipedia.org/wiki/Societ%C3%A0_Sportiva_Calcio_Napoli" target="_blank" class="btn btn-primary">Clicca qui</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </div>
+      <br>
+      <hr>
+      <br>
+
+      <!--implementazione-->
+      <div class="row">
+        <div class="col">
+          <h1>Categorie</h1>
+          <ul class="list-group">
+            <li class="list-group-item">Serie A</li>
+            <li class="list-group-item">Serie B</li>
+            <li class="list-group-item">Serie C</li>
+          </ul>
+        </div>
+        <div class="col-6">
+          <h1>Serie B</h1>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Campionato</h5>
+              <p class="card-text">Molto competitivo, non si molla nulla</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                per saperne di piu'
+              </button>
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Serie B</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      https://it.wikipedia.org/wiki/Serie_B
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Chiudi</button>
+                      <button type="button" class="btn btn-primary">Salva</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <h1>Serie C</h1>
+          <div class="card">
+            <div class="card-body">
+               <h5 class="card-title">Campionato</h5>
+               <p class="card-text">Composto da tre gironi in base alla posizione delle squadre</p>
+               <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1">
+                per saperne di piu'
+              </button>
+              <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Serie C</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      https://it.wikipedia.org/wiki/Serie_C
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Chiudi</button>
+                      <button type="button" class="btn btn-primary">Salva</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <hr>
+      <br>
+
+      <!--Carousel immagini-->
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="https://static.vecteezy.com/ti/foto-gratuito/t1/28861392-generativo-ai-calcio-stivale-calciando-un-calcio-sfera-obbiettivo-momento-su-il-stadio-foto.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://best5.it/b5/wp-content/uploads/2015/03/Calcio-e-Football-800x400-800x400.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://www.archimedeformazione.it/wp-content/uploads/2023/07/Manager-dello-sport-15.jpg" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Precedente</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Prossima</span>
+        </a>
+      </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
